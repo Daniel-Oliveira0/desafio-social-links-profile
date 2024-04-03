@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .container .card {
+        height: 600px;
+        width: 370px;
+    }
+    
+    .container .card .elements .info .profession {
+        margin-top: 30px;
+    }
+
+    .container .attribution {
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .container .card .card {
+        width: 300px;
+    }
+
+    .container .card .elements .elements {
+        width: 290px;
+        
+        justify-content: center;
+    }
+    
+    .container .card .elements .social-media .btn .btn {
+        width: 250px
+    }
+}

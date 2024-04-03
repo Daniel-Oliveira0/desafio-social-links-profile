@@ -1,0 +1,8 @@
+:root {
+    --verde: hsl(75, 94%, 57%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza-padrao: hsl(0, 2%, 62%);
+    --cinza-claro: hsl(0, 1%, 21%);
+    --cinza-escuro: hsl(0, 0%, 12%);
+    --preto-fosco: hsl(0, 0%, 8%);
+}

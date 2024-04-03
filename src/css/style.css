@@ -1,0 +1,89 @@
+body {
+    font-family: "Inter", sans-serif; 
+    /* background-color: var(--preto-fosco); */
+}
+
+.container{
+    background-color: var(--preto-fosco);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container .card {
+    display: flex;
+    background-color: var(--cinza-escuro);
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;    
+}
+
+.container .card .elements {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+}
+
+.container .card .elements .info {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .card .elements .img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container .card .elements .info .name {
+    font-size: 30px;
+    color: var(--branco);
+}
+
+.container .card .elements .info .place {
+    font-size: 15px;
+    color: var(--verde);       
+}
+
+.container .card .elements .info .profession {
+    font-size: 15px;
+    white-space: nowrap;
+    margin-top: 40px;
+    color: var(--cinza-padrao);
+}
+
+.container .card .elements .social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.container .card .elements .social-media .btn {
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    background-color: var(--cinza-claro);
+    color: var(--branco);
+    border: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.container .card .elements .social-media .btn:hover {
+    background-color: var(--verde);
+    color: var(--preto-fosco);
+}
+
+.container .attribution {
+    color: var(--branco);
+    margin: 10px;
+}
